@@ -11,7 +11,7 @@ int val2;
 int val3;
 
 
-RF24 radio(7, 8);  // CE, CSN pins
+RF24 radio(7, 8);  // CE 7, CSN 6 pins
 
 const uint64_t pipe = 0xE8E8F0F0E1LL;
 char dataToSend = 'A';  // Initial data
